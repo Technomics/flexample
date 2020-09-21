@@ -1,0 +1,14 @@
+citHeader("To cite flexample in your own work use:")
+
+citEntry(
+  entry    = "Unpublished",
+  title    = "Example data for a FlexFile with {flexample}",
+  author   = personList(as.person("Benjamin Berkman"),
+                   as.person("Justin Cooper"),
+                   as.person("Adam James")),
+  year     = "2020",
+  note     = "R package",
+  url      = "https://www.technomics.net",
+  textVersion = paste("Benjamin Berkman, Justin Cooper, Adam James (2020).",
+        "Example data for a FlexFile with flexample.")
+)
