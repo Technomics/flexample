@@ -16,7 +16,7 @@ passing](https://img.shields.io/badge/build-passing-green.svg)](https://gitlab.t
 [![technomics:
 proprietary](https://img.shields.io/badge/technomics-proprietary-00A0B2.svg)](https://gitlab.technomics.net/)
 [![version:
-0.0.0.9](https://img.shields.io/badge/version-0.1.1-blue.svg)]()
+0.0.0.9](https://img.shields.io/badge/version-0.0.0.9-blue.svg)]()
 <!-- badges: end -->
 
 The goal of flexample is to provide sample FlexFile data to be leveraged
