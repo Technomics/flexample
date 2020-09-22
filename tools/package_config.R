@@ -16,7 +16,7 @@ usethis::use_pkgdown()
 # Readme setup with RMarkdown
 rnomics::use_readme()
 usethis::use_news_md()
-
+usethis::use_readme_md()
 # Use data
 #usethis::use_data_raw()
 
@@ -27,11 +27,11 @@ usethis::use_news_md()
 
 # Description list
 desc::desc_add_author("Adam H.", "James", "ajames@technomics.net", "aut")
-desc::desc_add_author("Ben", "Berkman", "bberkman@technomics.net", "aut")
+desc::desc_add_author("Justin", "Cooper", "jcooper@technomics.net", "aut")
 
 desc::desc_add_author(given = "Technomics, Inc", role = "cph")
 
-desc::desc_set(Description = "Technomics' R package for examples to use with readflexfile.")
+desc::desc_set(Description = "Technomics' R package for example files to use with readflexfile.")
 
 # Package dependencies
 #usethis::use_pipe()
