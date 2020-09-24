@@ -13,44 +13,32 @@ stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://
 passing](https://img.shields.io/badge/build-passing-green.svg)](https://gitlab.technomics.net/costverse/readflexfile.git)
 [![coverage:
 0%25](https://img.shields.io/badge/coverage-0%25-blue.svg)]()
-[![technomics:
-proprietary](https://img.shields.io/badge/technomics-proprietary-00A0B2.svg)](https://gitlab.technomics.net/)
+[![License: GPL
+v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![version:
-0.0.0.9](https://img.shields.io/badge/version-0.0.0.9-blue.svg)]()
+1.0.0](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
 <!-- badges: end -->
 
 The goal of flexample is to provide sample FlexFile data to be leveraged
-with readflexfile.
+with flexample.
 
-View the [package
-site](http://shiny.technomics.net/tran/www/docs/flexample).
+View the [package site](https://github.com/Technomics).
 
 ## Installation
 
-You can install the released version of flexample from
-[TRAN](http://shiny.technomics.net/tran/www/home/)
-with:
+First install the package devtools if you haven’t already
 
 ``` r
-install.packages("flexample", repos = "http://shiny.technomics.net/tran")
+#install.packages("devtools")
+devtools::install_github("Technomics/flexample")
 ```
 
 ### Development version
 
 To get a bug fix, or to use a feature from the development version, you
-can install flexample from GitLab using
-[`rnomics`](http://shiny.technomics.net/tran/www/docs/rnomics/).
+can install flexample using the following.
 
 ``` r
-rnomics::gitlab_install("costverse/flexample", branch = "master")
-```
-
-### Clone Repository
-
-Clone the repository into a working directory of your choice. Use either
-the RStudio menus or
-[`rnomics`](http://shiny.technomics.net/tran/www/docs/rnomics/).
-
-``` r
-rnomics::gitlab_clone("costverse/flexample", "your/file/directory/here")
+devtools::dev_mode(on = TRUE)
+devtools::install_github("Technomics/flexample")
 ```
