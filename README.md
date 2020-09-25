@@ -20,7 +20,7 @@ packages.
 
 ## Installation
 
-First install the package devtools if you haven’t already
+First install the package devtools if you haven’t already.
 
 ``` r
 #install.packages("devtools")

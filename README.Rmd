@@ -27,7 +27,7 @@ The package flexample provides example FlexFile data for use in other packages.
 
 ## Installation
 
-First install the package devtools if you haven't already
+First install the package devtools if you haven't already.
 
 ```{r eval=FALSE}
 #install.packages("devtools")
