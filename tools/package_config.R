@@ -8,7 +8,7 @@ usethis::use_lifecycle()
 desc::desc_set("Roxygen", "list(markdown = TRUE)")
 
 # License
-usethis::use_gpl3_license("Technomics, Inc.")
+usethis::use_cc0_license("Technomics, Inc.")
 
 # Package website
 usethis::use_pkgdown()
@@ -26,12 +26,11 @@ usethis::use_readme_md()
 ## ===== DESCRIPTION =====
 
 # Description list
-desc::desc_add_author("Adam H.", "James", "ajames@technomics.net", "aut")
 desc::desc_add_author("Justin", "Cooper", "jcooper@technomics.net", "aut")
+desc::desc_add_author("Adam H.", "James", "ajames@technomics.net", "aut")
+desc::desc_add_author(given = "Technomics, Inc", role = "spn")
 
-desc::desc_add_author(given = "Technomics, Inc", role = "cph")
-
-desc::desc_set(Description = "Technomics' R package for example files to use with readflexfile.")
+desc::desc_set(Description = "A data package with example FlexFiles.")
 
 # Package dependencies
 #usethis::use_pipe()
@@ -39,9 +38,8 @@ desc::desc_set(Description = "Technomics' R package for example files to use wit
 
 ## ===== README & NEWS =====
 
-rnomics::use_badge_internal()
-usethis::use_lifecycle_badge("Questioning")
-#rnomics::use_badge_passing()
+usethis::use_lifecycle_badge("Stable")
+rnomics::use_badge_passing()
 
 ## ===== Developmental Tools =====
 
