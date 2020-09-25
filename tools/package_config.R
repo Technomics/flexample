@@ -1,0 +1,65 @@
+
+## ===== Project Setup ====
+
+# Import badges for use in documentation
+usethis::use_lifecycle()
+
+# Allow markdown rendering in documentation
+desc::desc_set("Roxygen", "list(markdown = TRUE)")
+
+# License
+usethis::use_cc0_license("Technomics, Inc.")
+
+# Package website
+usethis::use_pkgdown()
+
+# Readme setup with RMarkdown
+rnomics::use_readme()
+usethis::use_news_md()
+usethis::use_readme_md()
+# Use data
+#usethis::use_data_raw()
+
+# Use vignette
+#usethis::use_vignette("name", "title")
+
+## ===== DESCRIPTION =====
+
+# Description list
+desc::desc_add_author("Justin", "Cooper", "jcooper@technomics.net", "aut")
+desc::desc_add_author("Adam H.", "James", "ajames@technomics.net", "aut")
+desc::desc_add_author(given = "Technomics, Inc", role = "spn")
+
+desc::desc_set(Description = "A data package with example FlexFiles.")
+
+# Package dependencies
+#usethis::use_pipe()
+#usethis::use_package("package", min_version = "0.0.0")
+
+## ===== README & NEWS =====
+
+usethis::use_lifecycle_badge("Stable")
+rnomics::use_badge_passing()
+
+## ===== Developmental Tools =====
+
+pkgdown::build_reference()
+pkgdown::build_home()
+
+devtools::build_site()
+devtools::document()
+
+devtools::spell_check()
+devtools::check()
+
+usethis::use_version()
+rnomics::use_badge_version()
+
+devtools::load_all()
+
+devtools::build(binary = TRUE)
+devtools::build()
+
+detach("package:", unload = TRUE)
+
+## ===== Scratch Work =====

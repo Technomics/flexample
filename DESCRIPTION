@@ -1,0 +1,23 @@
+Package: flexample
+Title: Example FlexFile data
+Version: 1.0.0
+Authors@R: 
+    c(person(given = "Justin",
+             family = "Cooper",
+             role = c("cre", "aut"),
+             email = "jcooper@technomics.net"),
+      person(given = "Adam H.",
+             family = "James",
+             role = "aut",
+             email = "ajames@technomics.net"),
+      person(given = "Technomics, Inc",
+             role = "spn"))
+Description: A data package with example FlexFiles.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports: 
+    lifecycle
+RdMacros: lifecycle
