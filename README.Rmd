@@ -16,9 +16,9 @@ knitr::opts_chunk$set(
 # flexample
 
 <!-- badges: start -->
-[![technomics: costverse](https://img.shields.io/badge/technomics-costverse-EAC435.svg)](https://gitlab.technomics.net/costverse)
+[![technomics: costverse](https://img.shields.io/badge/technomics-costverse-EAC435.svg)](https://github.com/technomics)
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
-[![Build: passing](https://img.shields.io/badge/build-passing-green.svg)](https://gitlab.technomics.net/costverse/readflexfile.git)
+[![Build: passing](https://img.shields.io/badge/build-passing-green.svg)](https://github.com/technomics/readflexfile.git)
 [![version: 1.0.0](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
 <!-- badges: end -->
 
@@ -27,7 +27,7 @@ The package flexample provides example FlexFile data for use in other packages.
 
 ## Installation
 
-First install the package devtools if you haven't already
+First install the package devtools if you haven't already.
 
 ```{r eval=FALSE}
 #install.packages("devtools")
