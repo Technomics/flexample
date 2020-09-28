@@ -16,7 +16,9 @@ passing](https://img.shields.io/badge/build-passing-green.svg)](https://github.c
 <!-- badges: end -->
 
 The package flexample provides example FlexFile data for use in other
-packages.
+packages. Example FlexFile A and B are duplicates for testing/example
+use with the `read_folder()` function found in `costmisc` and
+`readflexfile` suite of functions.
 
 ## Installation
 
