@@ -13,6 +13,8 @@ stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://
 1.0.0](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
 [![License:
 GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/licenses/GPL-3.0)
+[![R build
+status](https://github.com/Technomics/flexample/workflows/R-CMD-check/badge.svg)](https://github.com/Technomics/flexample/actions)
 <!-- badges: end -->
 
 The package flexample provides example FlexFile data for use in other
@@ -20,7 +22,7 @@ packages. Example FlexFile A and B are duplicates for testing/example
 use with the `read_folder()` function found in `costmisc` and
 `readflexfile` suite of functions.
 
-View the [package site](https://technomics.github.com/flexample) to
+View the [package site](https://technomics.github.io/flexample/) to
 explore the features\!
 
 If you find a bug or have an idea for a new feature, please use the
@@ -53,11 +55,12 @@ in the works\!
 
 ## Installation
 
-First install the package devtools if you haven’t already.
+You can download and install directly from our GitHub repository. If
+this does not work or does not have a build for your version of R, try
+using `install_github()` instead (see Development version instructions).
 
 ``` r
-#install.packages("devtools")
-devtools::install_github("Technomics/flexample")
+install.packages("flexample", repos = "https://technomics.github.io/repo/")
 ```
 
 ### Development version
