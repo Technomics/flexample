@@ -55,11 +55,12 @@ in the works\!
 
 ## Installation
 
-First install the package devtools if you haven’t already.
+You can download and install directly from our GitHub repository. If
+this does not work or does not have a build for your version of R, try
+using `install_github()` instead (see Development version instructions).
 
 ``` r
-#install.packages("devtools")
-devtools::install_github("Technomics/flexample")
+install.packages("flexample", repos = "https://technomics.github.io/repo/")
 ```
 
 ### Development version

@@ -34,6 +34,7 @@ desc::desc_set(Description = "A data package with example FlexFiles.")
 
 usethis::use_lifecycle_badge("Stable")
 rnomics::use_badge_gpl3()
+usethis::use_github_actions_badge()
 
 ## ===== Developmental Tools =====
 
