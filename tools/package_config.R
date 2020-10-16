@@ -8,20 +8,14 @@ usethis::use_lifecycle()
 desc::desc_set("Roxygen", "list(markdown = TRUE)")
 
 # License
-usethis::use_cc0_license("Technomics, Inc.")
-
-# Package website
-usethis::use_pkgdown()
-
-# Readme setup with RMarkdown
-rnomics::use_readme()
-usethis::use_news_md()
-usethis::use_readme_md()
-# Use data
-#usethis::use_data_raw()
+usethis::use_gpl3_license("Technomics, Inc.")
 
 # Use vignette
 #usethis::use_vignette("name", "title")
+
+# GitHub
+usethis::use_github_actions() # this includes the standard R-CMD-check
+usethis::use_github_action("pkgdown")
 
 ## ===== DESCRIPTION =====
 
@@ -39,7 +33,7 @@ desc::desc_set(Description = "A data package with example FlexFiles.")
 ## ===== README & NEWS =====
 
 usethis::use_lifecycle_badge("Stable")
-rnomics::use_badge_passing()
+rnomics::use_badge_gpl3()
 
 ## ===== Developmental Tools =====
 

@@ -13,7 +13,7 @@ Authors@R:
       person(given = "Technomics, Inc",
              role = "spn"))
 Description: A data package with example FlexFiles.
-License: CC0
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
