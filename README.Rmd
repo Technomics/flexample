@@ -19,6 +19,7 @@ knitr::opts_chunk$set(
 [![technomics: costverse](https://img.shields.io/badge/technomics-costverse-EAC435.svg)](https://github.com/technomics)
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![Build: passing](https://img.shields.io/badge/build-passing-green.svg)](https://github.com/technomics/readflexfile.git)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![version: 1.0.0](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
 <!-- badges: end -->
 
