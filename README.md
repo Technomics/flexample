@@ -10,7 +10,7 @@ costverse](https://img.shields.io/badge/technomics-costverse-EAC435.svg)](https:
 [![Lifecycle:
 stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![version:
-1.0.0](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
+1.1.0](https://img.shields.io/badge/version-1.1.0-blue.svg)]()
 [![License:
 GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/licenses/GPL-3.0)
 [![R build
@@ -57,7 +57,8 @@ in the works\!
 
 You can download and install directly from our GitHub repository. If
 this does not work or does not have a build for your version of R, try
-using `install_github()` instead (see Development version instructions).
+using `install_github()` instead (see Development version
+instructions).
 
 ``` r
 install.packages("flexample", repos = "https://technomics.github.io/repo/")
