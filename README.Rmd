@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/licenses/GPL-3.0)
 [![R build status](https://github.com/Technomics/flexample/workflows/R-CMD-check/badge.svg)](https://github.com/Technomics/flexample/actions)
-[![version: 1.1.1](https://img.shields.io/badge/version-1.1.1-blue.svg)]()
+[![version: 1.1.2](https://img.shields.io/badge/version-1.1.2-blue.svg)]()
 <!-- badges: end -->
 
 The package flexample provides example FlexFile data for use in other packages. Example FlexFile A and B are duplicates for testing/example use with the `read_folder()` function found in `costmisc` and `readflexfile` suite of functions.
